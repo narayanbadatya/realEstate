@@ -1,11 +1,16 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { PopupWidget } from "react-calendly";
-
+import Plots from "./components/Plots";
+import Amenities from "./components/Amenities";
+import Footer from "./components/Footer";
 import Navbar from "./components/navbar";
 import HeroSection from "./components/HeroSection";
 import LeftSideBar from "./components/LeftSideBar";
 import ClassicLakeview from "./components/ClassicLakeView";
+import LuxuryHouseSection from "./components/LuxurySection";
+import ContactForm from "./components/Contact";
+
 
 function App() {
   return (
@@ -23,7 +28,10 @@ function App() {
       <LeftSideBar />
       <Plots/>
       <Amenities/>
+      <LuxuryHouseSection/>
+      <ContactForm/>
       <Footer />
+      
     </div>
   );
 }

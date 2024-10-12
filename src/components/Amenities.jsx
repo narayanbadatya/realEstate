@@ -3,6 +3,7 @@ import groceryStoreIcon from '../assets/grocerystore.png'; // Path to your image
 import waterPipelineIcon from '../assets/waterpipeline.png'; // Path to your image
 import partyHallIcon from '../assets/partyhall.png'; // Path to your image
 import officeSpaceIcon from '../assets/officespace.png'; // Path to your image
+import divider from '../assets/divider.png';
 
 const Amenities = () => {
   return (
@@ -36,6 +37,9 @@ const Amenities = () => {
           <span className="text-white text-sm">OFFICE SPACE</span>
         </div>
       </div>
+      <div className="bg-[#111B37] flex justify-center">
+<img src={divider} alt="" />
+</div>
     </div>
   );
 };
