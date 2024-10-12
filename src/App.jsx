@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import { PopupWidget } from "react-calendly";
 import Amenities from "./components/Amenities"
 import Plots from "./components/Plots";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <LeftSideBar />
       <Plots/>
       <Amenities/>
+      <ContactUs />
       <Footer />
     </div>
   );
