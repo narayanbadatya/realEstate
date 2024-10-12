@@ -1,10 +1,13 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { PopupWidget } from "react-calendly";
 
 import Navbar from "./components/navbar";
 import HeroSection from "./components/HeroSection";
 import LeftSideBar from "./components/LeftSideBar";
 import ClassicLakeview from "./components/ClassicLakeView";
+import Amenities from "./components/Amenities";
+import Plots from "./components/Plots";
 
 function App() {
   return (
@@ -18,7 +21,7 @@ function App() {
       />
       <Navbar />
       <HeroSection />
-      <ClassicLakeview/>
+      <ClassicLakeview/> 
       <LeftSideBar />
       <Plots/>
       <Amenities/>
