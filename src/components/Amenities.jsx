@@ -7,7 +7,7 @@ import divider from '../assets/divider.png';
 
 const Amenities = () => {
   return (
-    <div className="bg-[#111B37] py-12 px-4">
+    <div id="amenities" className="bg-[#111B37] py-12 px-4">
       {/* Title */}
       <h2 className="text-center text-white text-3xl font-semibold mb-8">Amenities</h2>
 

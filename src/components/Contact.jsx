@@ -3,7 +3,7 @@ import bg from '../assets/contactbg.png'; // Ensure correct path to your backgro
 
 const ContactForm = () => {
   return (
-    <div className="relative min-h-screen bg-gray-100 flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div id="contact" className="relative min-h-screen bg-gray-100 flex items-center justify-center px-4 sm:px-6 lg:px-8">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img

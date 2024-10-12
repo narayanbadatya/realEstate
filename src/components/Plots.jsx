@@ -57,7 +57,7 @@ const Timeline = () => {
 // Main Plots Component
 const Plots = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-start justify-center min-w-screen mt-28 text-white">
+    <div id="plots" className="flex flex-col lg:flex-row items-start justify-center min-w-screen mt-28 text-white">
       {/* Timeline Section */}
       <div className="hidden lg:flex lg:flex-col lg:mr-10">
         <Timeline />

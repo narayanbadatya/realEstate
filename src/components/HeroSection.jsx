@@ -3,7 +3,7 @@ import bg from '../assets/bg.png';
 
 const HeroSection = () => {
   return (
-    <div className=" relative h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${bg})` }}>
+    <div id='home' className=" relative h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${bg})` }}>
       <div className="absolute inset-0 bg-black opacity-40"></div> {/* Dark overlay */}
       
       <div className="animate-fadeIn relative z-10 flex flex-col items-end justify-center h-full px-6 md:text-end lg:text-end sm:text-center text-white ">
