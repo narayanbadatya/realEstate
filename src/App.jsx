@@ -6,8 +6,6 @@ import Navbar from "./components/navbar";
 import HeroSection from "./components/HeroSection";
 import LeftSideBar from "./components/LeftSideBar";
 import ClassicLakeview from "./components/ClassicLakeView";
-import Amenities from "./components/Amenities";
-import Plots from "./components/Plots";
 
 function App() {
   return (
@@ -25,6 +23,7 @@ function App() {
       <LeftSideBar />
       <Plots/>
       <Amenities/>
+      <Footer />
     </div>
   );
 }
