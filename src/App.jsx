@@ -5,13 +5,17 @@ import Navbar from "./components/navbar";
 import HeroSection from "./components/HeroSection";
 import LeftSideBar from "./components/LeftSideBar";
 import ClassicLakeview from "./components/ClassicLakeView";
-import PropertyList from "./components/Plots";
-import Plots from "./components/Plots";
-import Amenities from "./components/Amenities";
 
 function App() {
   return (
     <div className="relative">
+      <PopupWidget
+        url="https://calendly.com/sutarvaibhav37/30min"
+        rootElement={document.getElementById("root")}
+        text="Schedule a meet with us"
+        textColor="#ffffff"
+        color="#08669d"
+      />
       <Navbar />
       <HeroSection />
       <ClassicLakeview/>
