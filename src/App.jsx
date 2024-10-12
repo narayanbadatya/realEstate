@@ -5,8 +5,10 @@ import Navbar from "./components/navbar";
 import HeroSection from "./components/HeroSection";
 import LeftSideBar from "./components/LeftSideBar";
 import ClassicLakeview from "./components/ClassicLakeView";
-import { PopupWidget } from "react-calendly";
 import Footer from "./components/Footer";
+import { PopupWidget } from "react-calendly";
+import Amenities from "./components/Amenities"
+import Plots from "./components/Plots";
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
       <Navbar />
       <HeroSection />
       <ClassicLakeview/>
-      {/* <LeftSideBar /> */}
+      <LeftSideBar />
+      <Plots/>
+      <Amenities/>
       <Footer />
     </div>
   );
