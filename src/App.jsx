@@ -5,6 +5,9 @@ import Navbar from "./components/navbar";
 import HeroSection from "./components/HeroSection";
 import LeftSideBar from "./components/LeftSideBar";
 import ClassicLakeview from "./components/ClassicLakeView";
+import PropertyList from "./components/Plots";
+import Plots from "./components/Plots";
+import Amenities from "./components/Amenities";
 
 function App() {
   return (
@@ -13,6 +16,8 @@ function App() {
       <HeroSection />
       <ClassicLakeview/>
       <LeftSideBar />
+      <Plots/>
+      <Amenities/>
     </div>
   );
 }
