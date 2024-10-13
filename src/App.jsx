@@ -24,7 +24,6 @@ const transitionSettings = {
   damping: 20,
   staggerChildren: 0.2,
 };
-import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
